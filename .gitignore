@@ -33,10 +33,5 @@ override.tf.json
 .terraformrc
 terraform.rc
 
-# Ignore user credentials file
+# Ignore user data
 user.txt
-
-# Ignore hidden system files
-
-.DS_Store
-Thumbs.db
