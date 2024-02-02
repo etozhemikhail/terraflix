@@ -1,6 +1,6 @@
 resource "yandex_compute_instance" "cicd" {
   name                      = "cicd"
-  platform_id               = "standard-v1"
+  platform_id               = "standard-v3"
   zone                      = var.zone
   allow_stopping_for_update = true
   folder_id                 = var.folder_id
