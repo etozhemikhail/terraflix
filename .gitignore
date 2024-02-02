@@ -32,6 +32,9 @@ override.tf.json
 # Ignore CLI configuration files
 .terraformrc
 terraform.rc
+<<<<<<< HEAD
 
 # Ignore user data
 user.txt
+=======
+>>>>>>> 8b95df994f5224e38eec2cf663b56510684fa0be
