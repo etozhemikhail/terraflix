@@ -8,8 +8,8 @@ resource "yandex_compute_instance" "monitoring" {
 
   resources {
     cores         = 2
-    memory        = 6
-    core_fraction = 100
+    memory        = 4
+    core_fraction = 20
   }
 
   boot_disk {
